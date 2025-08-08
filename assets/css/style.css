@@ -18,6 +18,20 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
+.tech-stack {
+    margin: 10px 0;
+}
+.tech-stack span {
+    display: inline-block;
+    background: #f8f9fa;
+    color: #2c4964;
+    padding: 3px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -443,6 +457,9 @@ section {
     color: #45505b;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -736,3 +753,17 @@ section {
 #footer .credits {
     font-size: 13px;
 }
+
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.activity-card:hover .activity-img-container img {
+    transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------------
+# Responsive Styles
+/* General Styles */

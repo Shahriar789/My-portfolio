@@ -155,5 +155,15 @@
         aos_init();
 
     });
-
+ // Card hover effects
+    document.querySelectorAll('.project-card, .certification-card, .activity-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+    
 })(jQuery);
